@@ -62,7 +62,7 @@ bash about.sh
 elif [[ $option == 4 || $option == 04 ]]; then
 echo
 cd $HOME/mrphish/core/update
-bash update,sh
+bash update.sh
 echo
 elif [[ $option == 5 ]]; then
 clear
