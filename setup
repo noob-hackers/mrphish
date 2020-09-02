@@ -19,5 +19,6 @@ cd $HOME/mrphish
 mv log.mp3 /sdcard
 cd $HOME/mrphish/core/deploys/instagram
 chmod +x ngrok
+cd $HOME/mrphish
 rm setup
 bash mrphish
