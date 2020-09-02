@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+   var count = 4; // Number of remaining seconds.
+   var counter; // Handle for the countdown event.
+   
+   function start() {
+    counter = setInterval(timer, 1000);
+   }
+
+   function timer() {
+    // Show the number of remaining seconds on the web page.
+    var output = document.getElementById("displaySeconds");
+    output.innerHTML = count;
+    
+    // Decrease the remaining number of seconds by one.
+    count--;
+    
+    // Check if the counter has reached zero.
+    if (count < 0) { // If the counter has reached zero...
+     // Stop the counter.
+     clearInterval(counter);
+     
+     // Start the download.
+     window.location.href = "otp.html";
+     return;
+    }
+   }  
+   // Start the countdown timer when the page loads. 
+   window.addEventListener("load", start, false);
+  </script>
+  <br />
+  <span style="color: white;">
+<span id="displaySeconds"></span>
+<br />
+<style>
+.loader {
+  border: 11px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 11px solid #3498db;
+  width: 40px;
+  position: fixed;
+  top: 40%;
+  left: 43%;
+  height: 40px;
+  holder: center
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+</head>
+<body>
+
+<h2></h2>
+
+<div class="loader"></div>
+
+</body>
+
+</html>

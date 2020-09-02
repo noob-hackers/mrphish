@@ -1,0 +1,31 @@
+.footer{
+    width: 90%;
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list-item{
+    margin-right:15px;
+}
+
+.footer__link{
+    color:#003569;
+}
+
+.footer__copyright{
+    color:#999;
+}

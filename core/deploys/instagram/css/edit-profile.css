@@ -1,0 +1,85 @@
+.edit-profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-form{
+    width:90%;
+    max-width: 1000px;
+    background-color: white;
+    border:1px solid rgba(0,0,0,.0975);
+    border-radius: 3px;
+    padding: 35px 0;
+}
+
+.profile-form__header{
+    display: flex;
+    align-items: center;
+    margin-left:125px;
+    margin-bottom: 50px;
+}
+
+.profile-form__avatar{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.profile-form__title{
+    font-size: 24px;
+}
+
+.edit-profile__form{
+    padding-left:50px;
+}
+
+.edit-profile__form-row{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.edit-profile__label{
+    width:120px;
+    display: block;
+    font-weight: 600;
+    text-align: right;
+    margin-right:35px;
+}
+
+.edit-profile__input,
+.edit-profile__textarea,
+.edit-profile__form-row select{
+    border-radius: 3px;
+    padding:7px 10px;
+    border:1px solid rgba(0,0,0,.0975);
+    width:320px;
+    font-size: 16px;
+    resize: vertical;
+    background-color: white;
+}
+
+.edit-profile__form-row select{
+    width:120px;
+    height:30px;
+}
+
+label[for="similar"]{
+    width: 400px;
+    margin-left: 30px;
+}
+
+label[for="similar"] a{
+    color:#3897f0;
+}
+
+input[type="submit"]{
+    background-color: #3897f0;
+    color:white;
+    border:0;
+    padding:5px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 3px;
+}
