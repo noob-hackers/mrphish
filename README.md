@@ -1,6 +1,6 @@
 <h1 align="center">MRphish v1.0</h1>
 <p align="center">
-      A new automated script for Instagram Phishing
+      Auto phisher for Instagram
 /p>
 
 ## 🔍 ***About MRphish***:
