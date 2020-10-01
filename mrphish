@@ -67,7 +67,7 @@ echo
 elif [[ $option == 5 ]]; then
 clear
 echo
-printf "                    \e[1;96m Have A Good Day ........! \e[0m\n"
+printf "                    \e[1;96m Have A Good Day .......! \e[0m\n"
 echo
 sleep 3.0
 exit 3
