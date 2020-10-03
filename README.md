@@ -14,7 +14,7 @@ MRphish is a bash based script which is officially made for phish*ng instagram f
 [![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Screenshot_2020-06-22-18-53-12-214_com termux](https://user-images.githubusercontent.com/49580304/91927825-64922800-ec8f-11ea-9e64-dce26665c205.jpg)
+![Screenshot_2020-06-22-18-53-12-214_com termux](https://user-images.githubusercontent.com/49580304/94989403-63bc1280-0529-11eb-93ae-e5ce0e290cb0.jpg)
 
 
 ### 📌 ***MRphish is available for***:
