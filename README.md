@@ -61,10 +61,10 @@ mrphish is a bash based script which is officially made for phish*ng social medi
 * `ls`
 * `bash setup`
 * `bash mrphish`
-
+```
 *[+]-- Open new session in termux and type tor
 *[+]-- Open second session in termux and execute mrphish tool
-
+```
 ## USAGE OPTIONS [Termux] :
 
 __START ATTACK__ :
