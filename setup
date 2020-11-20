@@ -18,7 +18,7 @@ cd /sdcard
 mkdir dUmpS
 cd $HOME/mrphish
 mv log.mp3 /sdcard
-cd $HOME/mrphish
+cd $HOME/mrphish/core
 chmod +x ngrok
 mv ngrok $HOME
 cd $HOME
