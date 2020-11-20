@@ -118,10 +118,12 @@ __EXIT__ :
 </p>
 
 ## THANKS TO : 
-ADVPHISHING AUTHOR FOR PAGES
-BLACKEYE TOOL AUTHOR FOR PAGES
-LINUXCHOICE TOOL FOR PAGES
-__START ATTACK__ :
+
+*ADVPHISHING AUTHOR FOR PAGES
+
+*BLACKEYE TOOL AUTHOR FOR PAGES
+
+*LINUXCHOICE TOOL FOR PAGES
 
 ## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
