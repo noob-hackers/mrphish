@@ -1,0 +1,84 @@
+clear
+echo -e " \e[96m
+                                 ████████ \e[0m"
+echo "                             ████████████████
+                               █─▄▀█──█▀▄─█
+                              ▐▌──────────▐▌"
+echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──▄▀\e[0m▐█"
+echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
+echo "                            ▄████▄──▐▌──▄████▄"
+echo -e "\e[91m
+                 _  _  ____     ____  _  _  __  ____  _  _       
+                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \      
+                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
+echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
+echo      
+echo -e "                       \e[92m TOOL BY NOOB HACKERS (NITRO)\e[0m"
+echo
+wget -q --spider http://google.com
+
+if [ $? -eq 0 ]; then
+echo
+echo -e "                             STATUS \e[1;96m[\e[0m\e[92mONLINE\e[0m\e[1;96m]"
+echo
+sleep 4.0
+else
+echo
+    echo -e "                             STATUS \e[1;93m[\e[0m\e[91mOFFLINE\e[0m\e[1;93m]\e[0m"
+echo
+sleep 1.0
+bash mrphish
+fi  
+echo -e "\e[96m        |-----------------------[V 1.1]-----------------------|"
+echo -e "\e[96m        |-------------------\e[92mSELECT OPTIONS\e[96m--------------------|"
+echo -e "\e[96m        |-----------------------------------------------------|"
+echo -e "\e[96m        |                                                     |"
+echo -e "\e[96m        |                                                     |"
+echo -e "\e[96m        |                [\e[92m1\e[96m]==> START ATTACK                  |"
+echo -e "\e[96m        |                [\e[92m2\e[96m]==> DUMPS                         |"
+echo -e "\e[96m        |                [\e[92m3\e[96m]==> ABOUT                         |"
+echo -e "\e[96m        |                [\e[92m4\e[96m]==> UPDATE                        |"
+echo -e "\e[96m        |                [\e[92m5\e[96m]==> EXIT                          |"
+echo -e "\e[96m        |                [\e[92m6\e[96m]==> SUBSCRIBE                     |"
+echo -e "\e[96m        |                                                     |"
+echo -e "\e[96m        |-----------------------------------------------------|"
+echo -e "\e[96m        |---------------------\e[91mHEY HACKER\e[96m----------------------|"
+echo -e "\e[96m        |-----------------------------------------------------|"
+read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] SELECT OPTION: \e[0m' option
+if [[ $option == 1 || $option == 01 ]]; then
+echo
+cd $HOME/mrphish/core
+bash menu.sh
+echo
+elif [[ $option == 2 || $option == 02 ]]; then
+echo
+cd $HOME/mrphish/core/
+bash show.sh
+elif [[ $option == 3 || $option == 03 ]]; then
+echo
+cd $HOME/mrphish/core/about
+bash about.sh
+elif [[ $option == 4 || $option == 04 ]]; then
+echo
+cd $HOME/mrphish/core/update
+bash update.sh
+echo
+elif [[ $option == 5 ]]; then
+clear
+printf "                    \e[1;96m Have A Good Day ........! \e[0m\n"
+echo
+sleep 3.0
+exit 3
+elif [[ $option == 6 || $option == 06 ]]; then
+echo
+clear
+am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UC0fEZFM-pZ_LIxWf4HUsSIw
+clear
+echo
+else
+printf "                \e[1;92m [!] Invalid option!\e[0m\n"
+sleep 1
+fi
+echo
+cd $HOME/mrphish
+bash mrphish
