@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Mrphish-green.svg"></a>
-<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
+<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Version" src="https://img.shields.io/badge/Version-1.1-green.svg?style=flat-square"></a>
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
@@ -35,15 +35,17 @@ mrphish is a bash based script which is officially made for phish*ng social medi
 * Termux
 
 ### REQUIREMENTS :
-* internet
+* internet 400
 * php
-* storage 400 MB
+* storage 600 MB
 * ngrok Token
 
 ## FEATURES :
-* [+] Instagram Login Page !
+* [+] 60+ uptodate pages !
 * [+] Updated maintainence !
 * [+] 1 Port Forwarding Option !
+* [+] No link issues, timing !
+* [+] 5+ categories in pages !
 * [+] Easy for Beginners !
 
 ## INSTALLATION [Termux] :
@@ -78,6 +80,9 @@ __ABOUT__ :
 
 __UPDATE__ :
 - From this option you can update mrphish tool if updates are available for that.
+
+__SUBSCRIBE__ :
+- From this option you can easily subscribe our official channel.
 
 __EXIT__ :
 - From this option you can exit from tool 
