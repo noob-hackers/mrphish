@@ -17,6 +17,5 @@ done
 printf "\e[96m] done!\e[0m"
 sleep 2.0
 echo
-cd $HOME
-cd mrphish
-bash mrphish
+cd $HOME/mrphish
+bash setup
