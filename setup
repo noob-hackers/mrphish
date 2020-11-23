@@ -61,7 +61,7 @@ echo -e '\e[96m                           |'
 echo -e '\e[96m                           |'
 sleep 18.0
 clear
-am start -a android.intent.action.VIEW -d https://www.youtube.com/watch?v=c0fV8liYbcE&feature=youtu.be&t=190
+am start -a android.intent.action.VIEW -d https://www.youtube.com/watch?v=c0fV8liYbcE
 clear
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] NGROK AUTH CODE : \e[0m' name
 ./ngrok authtoken $name
