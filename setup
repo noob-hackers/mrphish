@@ -55,9 +55,13 @@ echo -e '\e[92m      VIDEO LINK :- [ https://youtu.be/c0fV8liYbcE ]'
 echo
 echo -e '\e[96m   EXAMPLE AUTH CODE - ./ngrok authtoken KavOb3e638hhs9 '
 echo -e '\e[96m                           |'
-echo -e '\e[96m        JUST PASTE THIS PART - KavOb3e638hhs973ijsiwu'
+echo -e '\e[96m  JUST PASTE THIS PART (dont copy paste this dummy one)- KavOb3e638hhs973ijsiwu'
 echo -e '\e[96m                           |'
 echo -e '\e[96m                           |'
+sleep 12.0
+clear
+am start -a android.intent.action.VIEW -d https://youtu.be/c0fV8liYbcE
+clear
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] NGROK AUTH CODE : \e[0m' name
 ./ngrok authtoken $name
 clear 
