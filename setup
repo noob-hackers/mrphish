@@ -23,8 +23,8 @@ clear
 echo -e "\e[96m      |------------[ INSTALLATION STARTED ]-----------------|"
 echo -e "\e[96m      |-------[KEEP YOUR DEVICE AWAY FOR WHILE]-------------|"
 sleep 8.0
-apt-get update -y
-apt-get upgrade -y
+apt-get update 
+apt-get upgrade
 termux-setup-storage
 pkg install git -y
 pkg install zip -y
