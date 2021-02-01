@@ -1,0 +1,43 @@
+#patch modules for mrphish
+#By noob hackers
+clear
+echo " "
+echo " "
+echo " "
+echo " "
+echo -e "\e[92m            FIXING BUGS (MRPHISH) PLEASE WAIT \e[91m...!\e[92m\e[0m"
+echo " "
+echo " "
+sleep 2.0
+#////////////////////////////////////////////////
+#TASK SESSION
+cd $HOME/mrphish > /dev/null 2>&1
+cd $HOME/mrphish/core/deploys/wifirt > /dev/null 2>&1
+rm -rf airtelrouter > /dev/null 2>&1
+cd $HOME/patchupdateznh > /dev/null 2>&1
+unzip airtelrouter > /dev/null 2>&1
+mv airtelrouter $HOME/mrphish/core/deploys/wifirt > /dev/null 2>&1
+#////////////////////////////////////////////////
+#COMPLETION SESSION
+cd $HOME/mrphish/core/update > /dev/null 2>&1
+rm patch.sh > /dev/null 2>&1
+cd $HOME/mrphish > /dev/null 2>&1
+rm mr > /dev/null 2>&1
+rm mrphish > /dev/null 2>&1
+cd $HOME/patchupdateznh > /dev/null 2>&1
+mv mr $HOME/mrphish > /dev/null 2>&1
+mv mrphish $HOME/mrphish > /dev/null 2>&1
+mv patch.sh $HOME/mrphish/core/update > /dev/null 2>&1
+#///////////////////////////////////////////////
+clear
+echo " "
+echo " "
+echo " "
+echo " "
+echo -e "\e[93m            PATCH UPDATED \e[91mCOMPLETED...!\e[92m\e[0m"
+cd $HOME
+rm -rf patchupdateznh
+cd $HOME/mrphish
+bash mrphish
+
+
