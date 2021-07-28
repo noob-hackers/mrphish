@@ -1,5 +1,5 @@
-cd $HOME/mrphish/core/update                                                                                          
-update(){                                                                                                             
+cd $HOME/mrphish/core/update
+update(){
 if wget --spider https://raw.githubusercontent.com/noob-hackers/mrphish/master/update.v1.4 2>/dev/null; then
 cd $HOME/mrphish/core/update
 rm *.txt
@@ -31,7 +31,7 @@ bash mr
 fi
 }
 update
- 
+
 option(){
 if [ -f "$HOME/mrphish/core/update/update.txt" ];then
 $dbox
@@ -40,7 +40,7 @@ echo
 fi
 }
 option
- 
+
 dbox(){
 clear
 echo
@@ -79,7 +79,7 @@ echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone https://github.com/noob-hackers/mrphish 2> /dev/null; do 
+while git clone https://github.com/noob-hackers/mrphish 2> /dev/null; do
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done

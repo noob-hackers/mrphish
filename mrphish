@@ -41,14 +41,14 @@ echo "                             ███████████████
                                █─▄▀█──█▀▄─█
                               ▐▌──────────▐▌"
 echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──▄▀\e[0m▐█"
-echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
+echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██"
 echo "                            ▄████▄──▐▌──▄████▄"
 echo -e "\e[91m
-                 _  _  ____     ____  _  _  __  ____  _  _       
-                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \      
-                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
+                 _  _  ____     ____  _  _  __  ____  _  _
+                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \
+                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("
 echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
-echo      
+echo
 echo -e "                       \e[92m TOOL BY NOOB HACKERS (NITRO)\e[0m"
 echo
 wget -q --spider http://google.com
@@ -60,12 +60,12 @@ echo
 banner(){
 echo -e "\e[96m                           MRPHISH NGROK SETUP\e[96m"
 echo -e "\e[96m                        ╔═══════════════════════╗\e[0m"
-echo -e "\e[91m                        ║\e[93m If you are using wifi\e[91m ║\e[0m"                                                             
+echo -e "\e[91m                        ║\e[93m If you are using wifi\e[91m ║\e[0m"
 echo -e "\e[91m                        ║         \e[93mType\e[92m 1\e[91m        ║\e[0m"
-echo -e "\e[96m                        ║                       ║\e[91m"                                                                         
+echo -e "\e[96m                        ║                       ║\e[91m"
 echo -e "\e[96m                        ║         (Or)          ║\e[96m"
 echo -e "\e[96m                        ║                       ║\e[96m"
-echo -e "\e[91m                        ║ \e[93mIf you are using data\e[91m ║\e[0m"              
+echo -e "\e[91m                        ║ \e[93mIf you are using data\e[91m ║\e[0m"
 echo -e "\e[91m                        ║         \e[93mType\e[92m 2\e[91m        ║\e[0m"
 echo -e "\e[96m                        ║                       ║"
 echo -e "\e[96m                        ╚═══════════════════════╝"
@@ -93,7 +93,7 @@ echo
 echo
 sleep 1.0
 bash mrphish
-fi  
+fi
 clear
 echo -e " \e[96m
                                  ████████ \e[0m"
@@ -101,14 +101,14 @@ echo "                             ███████████████
                                █─▄▀█──█▀▄─█
                               ▐▌──────────▐▌"
 echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──▄▀\e[0m▐█"
-echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
+echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██"
 echo "                            ▄████▄──▐▌──▄████▄"
 echo -e "\e[91m
-                 _  _  ____     ____  _  _  __  ____  _  _       
-                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \      
-                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
+                 _  _  ____     ____  _  _  __  ____  _  _
+                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \
+                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("
 echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
-echo      
+echo
 echo -e "                       \e[92m TOOL BY NOOB HACKERS (NITRO)\e[0m"
 echo
 echo -e "\e[96m        |-----------------------[V 1.3]-----------------------|"

