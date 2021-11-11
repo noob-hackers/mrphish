@@ -167,7 +167,7 @@ echo
 elif [[ $option == 8 || $option == 08 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat
+am start -a android.intent.action.VIEW -d https://bit.ly/nhwhatschat
 else
 printf "                \e[1;92m [!] Invalid option!\e[0m\n"
 sleep 1
