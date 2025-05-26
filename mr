@@ -64,13 +64,13 @@ bash intspeed.sh
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UC0fEZFM-pZ_LIxWf4HUsSIw
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
 clear
 echo
 elif [[ $option == 8 || $option == 08 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/3osRusJ
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
 clear
 echo                                                                                                                                                                                cd $HOME/mrphish
 bash mr
