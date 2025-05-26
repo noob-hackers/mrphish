@@ -161,13 +161,13 @@ exit 3
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
 clear
 echo
 elif [[ $option == 8 || $option == 08 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/nhwhatschat
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhwatsapgroups
 else
 printf "                \e[1;92m [!] Invalid option!\e[0m\n"
 sleep 1
