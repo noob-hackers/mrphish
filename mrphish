@@ -161,7 +161,7 @@ exit 3
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
+am start -a android.intent.action.VIEW -d https://nbhckrs.github.io/nhyt.html
 clear
 echo
 elif [[ $option == 8 || $option == 08 ]]; then
