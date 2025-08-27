@@ -64,17 +64,19 @@ bash intspeed.sh
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
+am start -a android.intent.action.VIEW -d https://nbhckrs.github.io/nhyt.html
 clear
 echo
 elif [[ $option == 8 || $option == 08 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel
+am start -a android.intent.action.VIEW -d https://nbhckrs.github.io/nhyt.html
 clear
-echo                                                                                                                                                                                cd $HOME/mrphish
+echo                                                                                                                                                                                
+cd $HOME/mrphish
 bash mr
-else                                                                                                                                                                                 printf "                \e[1;92m [!] Invalid option!\e[0m\n"
+else                                                                                                                                                                                 
+printf "                \e[1;92m [!] Invalid option!\e[0m\n"
 sleep 1
 cd $HOME/mrphish
 bash mr
